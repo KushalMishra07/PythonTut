@@ -1,0 +1,1 @@
+#Manipulate string into a required format using python
