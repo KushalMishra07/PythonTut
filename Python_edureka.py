@@ -31,13 +31,31 @@
 #         j+=100
 #     print(i)
 #     i+=1
-i=0
-j=0
+# i=0
+# j=0
+#
+# while i<10:
+#     while j<20:
+#         print('#'*j)
+#         j+=1
+#     j=0 #Resetting the J counter for correct printing
+#     i+=1
+# help(print)
 
-while i<10:
-    while j<20:
-        print('#'*j)
-        j+=1
-    j=0 #Resetting the J counter for correct printing
+##Data structures
+# names  = ['ELTON','JOHN','NAME']
+# print(names)
+# print(names[0:1])
+# help(list)
+##for Loop example
+i = 0
+a=[]
+x =10
+for x in range(10):
+    a.append(i)
     i+=1
-help(print)
+for i in a:
+    print(i)
+print(a)
+
+
