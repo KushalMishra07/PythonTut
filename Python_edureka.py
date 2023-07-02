@@ -58,4 +58,31 @@ for i in a:
     print(i)
 print(a)
 
+# Creating a tuple
+tuple = (1, 2, 3, 'a', 'b', 'c')
+
+# Accessing elements in a tuple
+print(tuple[0])  # Output: 1
+print(tuple[3])  # Output: 'a'
+
+# Slicing a tuple
+print(tuple[2:5])  # Output: (3, 'a', 'b')
+
+# Length of a tuple
+print(len(tuple))  # Output: 6
+
+# Iterating over a tuple
+for element in tuple:
+    print(element)
+
+# Tuple unpacking
+a, b, c = tuple[:3]
+print(a, b, c)  # Output: 1 2 3
+
+# Concatenating tuples
+new_tuple = tuple + ('x', 'y', 'z')
+print(new_tuple)  # Output: (1, 2, 3, 'a', 'b', 'c', 'x', 'y', 'z')
+
+
+
 
