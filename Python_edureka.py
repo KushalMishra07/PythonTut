@@ -40,6 +40,4 @@ while i<10:
         j+=1
     j=0 #Resetting the J counter for correct printing
     i+=1
-
-
 help(print)
