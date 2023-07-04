@@ -83,6 +83,34 @@ print(a, b, c)  # Output: 1 2 3
 new_tuple = tuple + ('x', 'y', 'z')
 print(new_tuple)  # Output: (1, 2, 3, 'a', 'b', 'c', 'x', 'y', 'z')
 
+my_dict = {"name": "K", "age": 22, "city": "New York"}
+
+# Accessing values in a dictionary
+print(my_dict["name"])  # Output: K
+print(my_dict["age"])   # Output: 22
+
+# Modifying values in a dictionary
+my_dict["age"] = 32
+print(my_dict["age"])   # Output: 32
+
+# Adding a new key-value pair
+my_dict["occupation"] = "Analyst"
+print(my_dict)          # Output: {"name": "John", "age": 32, "city": "New York", "occupation": "Analyst"}
+
+# Removing a key-value pair
+del my_dict["occupation"]
+print(my_dict)          # Output: {"name": "John", "age": 32, "occupation": "Engineer"}
+
+# Checking if a key exists in a dictionary
+print("name" in my_dict)  # Output: True
+print("occupation" in my_dict)  # Output: False
+
+# Getting the number of key-value pairs in a dictionary
+print(len(my_dict))     # Output: 3
+
+# Iterating over key-value pairs in a dictionary
+for key, value in my_dict.items():
+    print(key, ":", value)
 
 
 
